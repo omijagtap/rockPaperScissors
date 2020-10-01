@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 /** A simple game of rock paper sicissors
- * 
+ * World best game 
  *  @author Sukhjinder Nahal
  */
 
@@ -47,8 +47,9 @@ public class rockPaperScissors {
 			
 			else if (input.equalsIgnoreCase(paper) & computerChoice.equals(rock))
 			{
-				System.out.println("You win");
+				System.out.println("You have won these game ");
 				userWins++;
+
 				computerLosses++;
 			}
 			
