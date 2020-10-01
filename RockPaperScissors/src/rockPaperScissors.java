@@ -47,7 +47,7 @@ public class rockPaperScissors {
 			
 			else if (input.equalsIgnoreCase(paper) & computerChoice.equals(rock))
 			{
-				System.out.println("You win");
+				System.out.println("You have won these game ");
 				userWins++;
 				computerLosses++;
 			}
